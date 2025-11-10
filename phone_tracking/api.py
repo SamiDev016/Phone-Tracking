@@ -1,10 +1,10 @@
 import frappe
 from frappe import _
 
-@frappe.whitelist(allow_guest=False)
+@frappe.whitelist()
 def receive_call_log(data=None):
     try:
-        if frappe.requst and frappe.request.get_data():
+        if frappe.request and frappe.request.get_data():
             import json
             try:
                 payload = json.loads(frappe.request.get_data().decode("utf-8"))
