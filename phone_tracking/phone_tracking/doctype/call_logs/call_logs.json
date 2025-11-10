@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "CALL.####",
  "creation": "2025-11-09 18:49:37.864978",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -54,10 +55,11 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-11-09 19:00:17.281343",
+ "modified": "2025-11-09 19:37:28.159777",
  "modified_by": "Administrator",
  "module": "Phone Tracking",
  "name": "Call Logs",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {

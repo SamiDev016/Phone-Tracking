@@ -37,3 +37,4 @@ def receive_call_log(data=None):
             "message": "Failed to receive call log",
         }
             
+
