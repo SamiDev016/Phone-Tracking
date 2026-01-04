@@ -10,6 +10,7 @@
   "caller_number",
   "receiver_number",
   "call_type",
+  "call_status",
   "duration",
   "timestamp",
   "call_id"
@@ -18,6 +19,7 @@
   {
    "fieldname": "device_id",
    "fieldtype": "Data",
+   "hidden": 1,
    "label": "Device Id"
   },
   {
@@ -32,9 +34,8 @@
   },
   {
    "fieldname": "call_type",
-   "fieldtype": "Select",
-   "label": "Call type",
-   "options": "Incoming\nOutgoing\nMissed"
+   "fieldtype": "Data",
+   "label": "Call type"
   },
   {
    "fieldname": "duration",
@@ -49,13 +50,19 @@
   {
    "fieldname": "call_id",
    "fieldtype": "Data",
+   "hidden": 1,
    "label": "Call ID"
+  },
+  {
+   "fieldname": "call_status",
+   "fieldtype": "Data",
+   "label": "Call Status"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-11-09 19:37:28.159777",
+ "modified": "2026-01-04 10:04:15.445516",
  "modified_by": "Administrator",
  "module": "Phone Tracking",
  "name": "Call Logs",

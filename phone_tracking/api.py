@@ -21,6 +21,7 @@ def receive_call_log(data=None):
             "call_type": payload.get("call_type"),
             "duration": payload.get("duration"),
             "timestamp": payload.get("timestamp"),
+            "call_status": payload.get("call_status"),
             "call_id": payload.get("call_id"),
         })
 
