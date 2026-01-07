@@ -13,7 +13,8 @@
   "call_status",
   "duration",
   "timestamp",
-  "call_id"
+  "call_id",
+  "icon"
  ],
  "fields": [
   {
@@ -57,12 +58,17 @@
    "fieldname": "call_status",
    "fieldtype": "Data",
    "label": "Call Status"
+  },
+  {
+   "fieldname": "icon",
+   "fieldtype": "Icon",
+   "label": "Icon"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-01-04 10:04:15.445516",
+ "modified": "2026-01-05 13:45:20.599937",
  "modified_by": "Administrator",
  "module": "Phone Tracking",
  "name": "Call Logs",
