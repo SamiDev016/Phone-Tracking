@@ -23,6 +23,7 @@ def receive_call_log(data=None):
             "timestamp": payload.get("timestamp"),
             "call_status": payload.get("call_status"),
             "call_id": payload.get("call_id"),
+            "full_name" : payload.get("full_name")
         })
 
         call_doc.insert(ignore_permissions=True)

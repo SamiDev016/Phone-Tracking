@@ -6,6 +6,7 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "full_name",
   "device_id",
   "caller_number",
   "receiver_number",
@@ -63,12 +64,17 @@
    "fieldname": "icon",
    "fieldtype": "Icon",
    "label": "Icon"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-01-05 13:45:20.599937",
+ "modified": "2026-01-07 01:08:52.517631",
  "modified_by": "Administrator",
  "module": "Phone Tracking",
  "name": "Call Logs",
