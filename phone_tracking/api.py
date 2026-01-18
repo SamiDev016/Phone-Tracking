@@ -90,6 +90,7 @@ def receive_call_log(data=None):
             "receiver": received_by,
             "start_time": timestamp,
             "end_time": timestamp + timedelta(seconds=duration),
+			"custom_owner_name": payload.get("full_name"),
         })
 
         for link in links:
